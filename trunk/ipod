@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>info</key>
+	<dict>
+		<key>category</key>
+		<string>HANG</string>
+		<key>contact</key>
+		<string>http://www.withipod.net</string>
+		<key>description</key>
+		<string>HANG</string>
+		<key>maintainer</key>
+		<string></string>
+		<key>name</key>
+		<string>HANG</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<key>packages</key>
+	<array>
+		<dict>
+			<key>author</key>
+			<string>Huh Hang</string>
+			<key>bundleIdentifier</key>
+			<string>com.hang</string>
+			<key>category</key>
+			<string>HANG</string>
+			<key>description</key>
+			<string>GoStop</string>
+			<key>location</key>
+			<string>http://gostop.googlecode.com/files/gostop3005.zip</string>
+			<key>name</key>
+			<string>GoStop</string>
+			<key>restartSpringBoard</key>
+			<true/>
+			<key>scripts</key>
+			<dict>
+				<key>install</key>
+				<array>
+					<array>
+						<string>CopyPath</string>
+						<string>gostop.app</string>
+						<string>/Applications/gostop.app</string>
+					</array>
+					<array>
+						<string>Notice</string>
+						<string>have a niceday!</string>
+					</array>
+				</array>
+				<key>uninstall</key>
+				<array>
+					<array>
+						<string>RemovePath</string>
+						<string>/Applications/gostop.app</string>
+					</array>
+				</array>
+			</dict>
+			<key>size</key>
+			<string>1167911</string>
+			<key>version</key>
+			<string>0.03005</string>
+		</dict>
+		<dict>
+			<key>author</key>
+			<string>Huh Hang</string>
+			<key>bundleIdentifier</key>
+			<string>com.hang</string>
+			<key>category</key>
+			<string>HANG</string>
+			<key>description</key>
+			<string>깔끔한 플립시계입니다 </string>
+			<key>location</key>
+			<string>http://gostop.googlecode.com/files/FlipClock1.zip</string>
+			<key>name</key>
+			<string>FlipClock</string>
+			<key>restartSpringBoard</key>
+			<true/>
+			<key>scripts</key>
+			<dict>
+				<key>install</key>
+				<array>
+					<array>
+						<string>CopyPath</string>
+						<string>FlipClock.app</string>
+						<string>/Applications/FlipClock.app</string>
+					</array>
+					<array>
+						<string>Notice</string>
+						<string>have a niceday!</string>
+					</array>
+				</array>
+				<key>uninstall</key>
+				<array>
+					<array>
+						<string>RemovePath</string>
+						<string>/Applications/FlipClock.app</string>
+					</array>
+				</array>
+			</dict>
+			<key>size</key>
+			<string>241947</string>
+			<key>version</key>
+			<string>0.01</string>
+		</dict>
+	</array>
+</dict>
+</plist>
